@@ -103,3 +103,9 @@ theme: nexmoe
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+url: https://qabugi.github.io   # 修改为 github io 的地址    
+root: /qabugi.github.io/                          # 要将资源映射到仓库名
+deploy:      
+type: git      
+repo: https://github.com/qabugi/qabugi.github.io.git  # blog 的 git 地址      
+branch: gh-pages                            # 发布至 gp-pages 分支，如果该分支不存在，就会自动创建它
