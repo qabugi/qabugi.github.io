@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="<%- /vssue/vssue.css %>">
+<div id="vssue"></div>
+<script src="<%- /vssue/vue.min.js %>"></script>
+<script src="<%- /vssue/vssue.github.min.js %>"></script>
+<script>
+     new Vue({
+      el: '#vssue',
+
+      render: h => h('Vssue', {
+        props: {
+          // 在这里设置当前页面对应的 Issue 标题
+          title: 'Vssue Chats Demo',
+
+          // 在这里设置你使用的平台的 OAuth App 配置
+          options: {
+            owner: 'qabugi',
+            repo: 'qabugi.github.io',
+            clientId: '42f5d48d339bc4be56c5',
+            clientSecret: '6549ea1d9a63e7f202f9b93b3563f92091e4843e', // 只有在使用某些平台时需要
+          },
+        }
+      })
+    })
+</script>
