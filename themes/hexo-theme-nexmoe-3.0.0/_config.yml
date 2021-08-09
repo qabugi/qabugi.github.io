@@ -1,10 +1,10 @@
-avatar: https://github.com/qabugi/qabugi.github.io/blob/main/icon.jpg # 网站 Logo
+avatar: https://raw.githubusercontent.com/qabugi/qabugi.github.io/main/icon.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
   path: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg
   width: 1440
   height: 960
 favicon:
-  href: https://github.com/qabugi/qabugi.github.io/blob/main/chat.png # 网站图标
+  href: https://raw.githubusercontent.com/qabugi/qabugi.github.io/main/chat.png # 网站图标
   type: image/png # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
 
 function: # 功能开关，可选值（true,false）
@@ -15,8 +15,8 @@ iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
 
 cdn: # 这里可以修改站点使用的库的CDN
   gitalk:
-    css: https://github.com/qabugi/qabugi.github.io/blob/main/gitalk/gitalk.min.css
-    js: https://github.com/qabugi/qabugi.github.io/blob/main/gitalk/gitalk.min.js
+    css: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.css
+    js: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
 
 menu:
   回到首页: 
