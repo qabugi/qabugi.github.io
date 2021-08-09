@@ -1,0 +1,96 @@
+avatar: /chat.png # 网站 Logo
+background: # 既是博客的背景，又是文章默认头图
+  path: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg
+  width: 1440
+  height: 960
+favicon:
+  href: /chat.png # 网站图标
+  type: image/png # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
+
+function: # 功能开关，可选值（true,false）
+  globalToc: true # 开启该功能会自动开启文章 TOC（文章目录） 功能
+  
+# 附加图标库 用于自定义字体 www.iconfont.cn 登录->创建项目->添加图标->获取链接
+iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
+
+cdn: # 这里可以修改站点使用的库的CDN
+  gitalk:
+    css: /gitalk/gitalk.min.css
+    js: /gitalk/gitalk.min.js
+
+menu:
+  回到首页: 
+    - /
+    - icon-home
+#  文章归档: 
+#    - /archives.html
+#    - icon-container
+  关于博客:
+    - /about.html
+    - icon-info-circle
+  我的朋友: 
+    - /PY.html
+
+widgets:
+- search
+- social
+- category
+- tagcloud
+# - archive #settings: widgetAchive
+# - recent_posts
+# - link #settings: widgetLink
+
+maxTagcloud: 0  # 标签云组件显示的标签数量，0 表示不限制
+
+social:
+  GitHub:
+    - https://github.com/qabugi/
+    - icon-github
+    - rgb(25, 23, 23)
+    - rgba(25, 23, 23, .15)
+
+site_verification: # 向搜索引擎验证你对站点的所有权，用于向搜索引擎提交 sitemap 和管理站点被搜索引擎收录的情况。
+  google:
+  baidu:
+
+analytics: # 统计系统，目前支持 Google analytics.js 统计、Google Tag Manager 统计、CNZZ 统计、腾讯统计、51.La统计、百度统计
+  google_site_id: #<ID>
+  gtags_site_id: #<ID>
+  cnzz_site_id: #<ID>
+  tencent_site_id: #<ID>
+  la_site_id: #<ID>
+  baidu_site_id: #<ID>
+  gtm_container_id: #<ID>
+
+comment: gitalk # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot 使用 false 可以关闭
+
+gitalk:
+  admin: qabugi # 拥有对该repo进行操作的 GitHub username
+  owner: qabugi # 持有该 repo 的 GitHub username
+  repo: qabugi.github.io # 存放评论的 issue 所在的 repo
+  clientID: 42f5d48d339bc4be56c5 # GitHub Client ID
+  clientSecret: 2e6ca654d4c242dbd44969d51246d85221bb19bd # GitHub Client Secret
+
+
+copyright: 
+copyTip: false # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
+
+# achive widget behavior
+widgetAchive: #文章归档组件
+  archive_type: 'year' #按月展示还是按年展示
+  show_count: true  #是否展示数量
+
+widgetLink: #链接组件
+  - title: <title>
+    img : <img_path>
+    link : <url>
+  - title: <title>
+    img : <img_path>
+    link : <url>
+
+sidebar: ''
+
+search: 
+  type: engine # 可选engine（用搜索引擎搜索）或 swiftype
+  url: https://cn.bing.com/search?q=site:nexmoe.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
+  id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
