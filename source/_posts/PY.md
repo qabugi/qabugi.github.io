@@ -11,4 +11,4 @@ tags:
 
 ##KHLFYY
 
-- 什么也没干的[KHLFYY](https://khlfyy.github.io/)
+- ![KH](https://raw.githubusercontent.com/qabugi/qabugi.github.io/main/kh.png) 什么也没干的[KHLFYY](https://khlfyy.github.io/)
