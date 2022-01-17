@@ -29,6 +29,6 @@
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-hibiki": "^1.0.5",
     "vssue": "^1.4.8",
-    "vue": "^3.2.1"
+    "vue": "^3.2.27"
   }
 }
